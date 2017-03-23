@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.flex_main_contents {
+  display: flex;
+}
+.left_main_block {
+  flex: 1;
+}
+.right_main_block {
+  flex: 1;
+}

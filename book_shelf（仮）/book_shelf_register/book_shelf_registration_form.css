@@ -1,0 +1,37 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+}
+header ul {
+  width: 100%;
+}
+header li {
+  display: inline-block;
+  margin-right: 150px;
+}
+.flex_contents_block {
+  display: flex;
+  margin: auto;
+}
+.main_block {
+  flex: 5;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.main_block td {
+  margin-top: 5px;
+  padding: 3px;
+}
+.aside_block {
+  flex: 1;
+}
+footer {
+  text-align: center;
+}
+footer table {
+  text-align: center;
+  margin-left: 40px;
+}

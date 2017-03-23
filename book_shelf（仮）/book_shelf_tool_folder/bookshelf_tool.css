@@ -1,0 +1,38 @@
+table {
+  width: 660px;
+  border-collapse: collapse;
+  text-align: center;
+}
+table, tr, th, td {
+  border: solid 1px;
+  padding: 10px;
+  text-align: center;
+}
+.all_book {
+  text-align: center;
+}
+ul.pageNavi {
+  margin: 0 0 10px;
+  padding: 10px 10px 5px;
+  background: #eee;
+  text-align: center;
+}
+ul.pageNavi li {
+  display: inline;
+  margin: 0 2px;
+	padding: 0;
+}
+ul.pageNavi li span,
+ul.pageNavi li a {
+  display: inline-block;
+	margin-bottom: 5px;
+	padding: 1px 8px;
+	background: #fff;
+	border: 1px solid #aaa;
+	text-decoration: none;
+	vertical-align: middle;
+}
+ul.pageNavi li a:hover {
+  background: #eeeff7;
+  background-color: #00f;
+}
